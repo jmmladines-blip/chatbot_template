@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- React + Babel -->
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+
+    <!-- Chatbot library -->
+    <script src="https://unpkg.com/supersimpledev/chatbot.js"></script>
+
+    <!-- Components (match your exact filenames) -->
+    <script type="text/babel" src="./components/ChatMessage.jsx"></script>
+    <script type="text/babel" src="./components/ChatMessages.jsx"></script>
+    <script type="text/babel" src="./components/ChatInput.jsx"></script>
+    <script type="text/babel" src="./components/Apps.jsx"></script>
+
+    <!-- Render App -->
+    <script type="text/babel" src="./components/App.jsx"></script>
+
+    <script type="text/babel">
+    ReactDOM.createRoot(root).render(<App />);
+    </script>
+  </body>
+</html>
